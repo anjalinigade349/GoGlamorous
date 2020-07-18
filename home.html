@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container
+        {
+            width:800px;
+            overflow: hidden;
+        }
+        #sliderbox
+        {
+            position:relative;
+            width:3200px;
+            animation-name:slideranimation;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        #sliderbox img
+        {
+            float: left;
+        }
+        @keyframes slideranimation {
+            0%
+            {
+                left:0px;
+            }
+            20%
+            {
+                left:0px;
+            }
+            25%
+            {
+                left:-800px;
+            }
+            45%
+            {
+                left:-800px;
+            }
+            50%
+            {
+                left:-1600px;
+            }
+            70%
+            {
+                left:-1600px;
+            }
+            75%
+            {
+                left:-2400px;
+            }
+            
+        }
+    </style>
+    <meta charset="utf-8">
+    <title> Home </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/script.js"> </script>
+</head>    
+    
+<body>
+    
+    <div class="container">
+    
+    <header class="header">
+    <img src="imgs/gg-logo.png">
+    </header>
+    
+    <nav class="menu">
+    <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="about.html">About Us</a>&nbsp; &nbsp; &nbsp;&nbsp;
+    <a href ="contact.html">Contact</a>&nbsp; &nbsp; &nbsp;
+    <a id = "login" href = "login.html">SignUp/LogIn</a>
+    </nav>
+    </div>
+    
+     <div id="container">
+                <div id="sliderbox">
+                <img src="imgs/bg1.jpg"/>
+                <img src="imgs/bg6.jpg"/>
+                <img src="imgs/lipstick.jpg"/>
+                <img src="imgs/makeup1.jpg"/>
+                
+                </div>
+            </div>
+    
+</body>
+</html>
+
+    
